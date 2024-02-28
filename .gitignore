@@ -16,3 +16,14 @@ Gemfile.lock
 # visual studio
 *.aps
 .vs/
+
+
+# ???
+*.gem
+.bundle
+.jekyll-cache
+.sass-cache
+_site
+Gemfile.lock
+node_modules
+assets/main-bundle.js
