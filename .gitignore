@@ -11,19 +11,12 @@ install/
 
 # files
 *.DS_Store
-Gemfile.lock
 
 # visual studio
 *.aps
 .vs/
 
-
-# ???
-*.gem
-.bundle
-.jekyll-cache
-.sass-cache
-_site
+# jekyll
 Gemfile.lock
-node_modules
-assets/main-bundle.js
+.jekyll-cache
+_site
