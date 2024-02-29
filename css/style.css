@@ -20,7 +20,6 @@ body {
   overflow-x: hidden;
 }
 
-/* line 15, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
@@ -29,7 +28,6 @@ body {
   transition: 0.3s;
 }
 
-/* line 19, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 a,
 .button {
   -webkit-transition: 0.3s;
@@ -38,20 +36,17 @@ a,
   transition: 0.3s;
 }
 
-/* line 23, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 a:focus,
 .button:focus, button:focus {
   text-decoration: none;
   outline: none;
 }
 
-/* line 28, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 a:focus {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 32, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -59,20 +54,17 @@ a:hover,
   text-decoration: none;
 }
 
-/* line 39, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 a,
 button {
   color: #1F1F1F;
   outline: medium none;
 }
 
-/* line 44, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Petit Formal Script", cursive;
   color: #1F1F1F;
 }
 
-/* line 48, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -82,18 +74,15 @@ h6 a {
   color: inherit;
 }
 
-/* line 57, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 ul {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 61, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 li {
   list-style: none;
 }
 
-/* line 64, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 p {
   font-size: 16px;
   font-weight: 400;
@@ -103,7 +92,6 @@ p {
   font-family: "Petit Formal Script", cursive;
 }
 
-/* line 73, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 label {
   color: #7e7e7e;
   cursor: pointer;
@@ -111,102 +99,85 @@ label {
   font-weight: 400;
 }
 
-/* line 79, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 *::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 84, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 ::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 89, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 ::selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 94, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 *::-webkit-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 99, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 *:-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 104, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 *::-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 109, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 *::placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 115, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 119, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .mb-65 {
   margin-bottom: 67px;
 }
 
-/* line 123, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .black-bg {
   background: #020c26 !important;
 }
 
-/* line 127, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .white-bg {
   background: #ffffff;
 }
 
-/* line 130, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .gray-bg {
   background: #FFF5F5;
 }
 
-/* line 137, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
 }
 
-/* line 140, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .bg-img-2 {
   background-image: url(../img/background-img/bg-img-2.jpg);
 }
 
-/* line 143, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .cta-bg-1 {
   background-image: url(../img/background-img/bg-img-3.jpg);
 }
 
-/* line 148, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .overlay {
   position: relative;
   z-index: 0;
 }
 
-/* line 152, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .overlay::before {
   position: absolute;
   content: "";
@@ -219,13 +190,11 @@ h3 {
   opacity: 0.851;
 }
 
-/* line 164, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .overlay2 {
   position: relative;
   z-index: 0;
 }
 
-/* line 168, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .overlay2::before {
   position: absolute;
   content: "";
@@ -238,13 +207,11 @@ h3 {
   opacity: 0.2;
 }
 
-/* line 181, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .overlay3 {
   position: relative;
   z-index: 0;
 }
 
-/* line 185, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .overlay3::before {
   position: absolute;
   content: "";
@@ -257,30 +224,25 @@ h3 {
   opacity: 0.1;
 }
 
-/* line 196, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .section-padding {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-/* line 200, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 .pt-120 {
   padding-top: 120px;
 }
 
-/* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .section_title {
   margin-bottom: 62px;
 }
 
 @media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
   .section_title {
     margin-bottom: 25px;
   }
 }
 
-/* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .section_title span {
   font-size: 18px;
   font-weight: 400;
@@ -291,7 +253,6 @@ h3 {
   margin-bottom: 10px;
 }
 
-/* line 18, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .section_title h3 {
   font-size: 36px;
   font-family: "Muli", sans-serif;
@@ -301,60 +262,50 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 18, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 25px;
   }
 }
 
-/* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .mb-95 {
   margin-bottom: 95px;
 }
 
 @media (max-width: 767px) {
-  /* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
   .mb-95 {
     margin-bottom: 30px;
   }
 }
 
-/* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .mb-80 {
   margin-bottom: 80px;
 }
 
 @media (max-width: 767px) {
-  /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
   .mb-80 {
     margin-bottom: 30px;
   }
 }
 
-/* line 43, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .mb-60 {
   margin-bottom: 60px;
 }
 
 @media (max-width: 767px) {
-  /* line 43, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
   .mb-60 {
     margin-bottom: 30px;
   }
 }
 
-/* line 49, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .mb-20 {
   margin-bottom: 20px;
 }
 
-/* line 52, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .mb-60 {
   margin-bottom: 60px;
 }
 
 @media (max-width: 767px) {
-  /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
   .mobile_menu {
     position: absolute;
     right: 0px;
@@ -363,125 +314,6 @@ h3 {
   }
 }
 
-/* line 13, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_menu .slicknav_nav {
-  background: #fff;
-  float: right;
-  margin-top: 0;
-  padding: 0;
-  width: 95%;
-  padding: 0;
-  border-radius: 0px;
-  margin-top: 5px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 0px;
-}
-
-/* line 28, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_menu .slicknav_nav a:hover {
-  background: transparent;
-  color: #F2C64D;
-}
-
-/* line 32, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_menu .slicknav_nav a.active {
-  color: #F2C64D;
-}
-
-@media (max-width: 767px) {
-  /* line 35, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-  .slicknav_menu .slicknav_nav a i {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 35, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-  .slicknav_menu .slicknav_nav a i {
-    display: none;
-  }
-}
-
-/* line 44, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_menu .slicknav_nav .slicknav_btn {
-  background-color: transparent;
-  cursor: pointer;
-  margin-bottom: 10px;
-  margin-top: -40px;
-  position: relative;
-  z-index: 99;
-  border: 1px solid #ddd;
-  top: 3px;
-  right: 5px;
-  top: -32px;
-}
-
-/* line 55, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_menu .slicknav_nav .slicknav_btn .slicknav_icon {
-  margin-right: 6px;
-  margin-top: 3px;
-  position: relative;
-  padding-bottom: 3px;
-  top: -11px;
-  right: -5px;
-}
-
-@media (max-width: 767px) {
-  /* line 12, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-  .slicknav_menu {
-    margin-right: 12px;
-  }
-}
-
-/* line 72, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_nav .slicknav_arrow {
-  float: right;
-  font-size: 22px;
-  position: relative;
-  top: -9px;
-}
-
-/* line 78, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_btn {
-  background-color: transparent;
-  cursor: pointer;
-  margin-bottom: 10px;
-  position: relative;
-  z-index: 99;
-  border: none;
-  border-radius: 3px;
-  top: 5px;
-  padding: 5px;
-  right: 5px;
-  margin-top: -5px;
-  top: -31px;
-}
-
-/* line 92, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_btn {
-  background-color: transparent;
-  cursor: pointer;
-  margin-bottom: 10px;
-  position: relative;
-  z-index: 99;
-  border: none;
-  border-radius: 3px;
-  top: 5px;
-  padding: 5px;
-  right: 0;
-  margin-top: -5px;
-  top: -32px;
-}
-
-/* line 106, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slick-nav.scss */
-.slicknav_icon-bar {
-  background: #000 !important;
-}
-
-/* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area {
   left: 0;
   right: 0;
@@ -491,65 +323,55 @@ h3 {
   background: #fff;
 }
 
-/* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 0 50px;
 }
 
 @media (max-width: 767px) {
-  /* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 0;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 0 50px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 0 50px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 120px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 120px;
   }
 }
 
-/* line 40, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
   text-align: right;
 }
 
-/* line 43, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
 }
 
-/* line 46, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
   color: #727272;
   font-size: 15px;
@@ -562,7 +384,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 46, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     padding: 35px 8px 35px 8px;
     font-size: 15px;
@@ -570,32 +391,27 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 46, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     padding: 38px 18px 38px 18px;
   }
 }
 
-/* line 64, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a i {
   font-size: 9px;
 }
 
 @media (max-width: 767px) {
-  /* line 64, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 64, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
 }
 
-/* line 76, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: "";
@@ -612,19 +428,16 @@ h3 {
   transition: 0.3s;
 }
 
-/* line 88, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover::before {
   opacity: 1;
   transform: scaleX(1);
 }
 
-/* line 93, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a.active::before {
   opacity: 1;
   transform: scaleX(1);
 }
 
-/* line 102, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu {
   position: absolute;
   left: 0;
@@ -643,12 +456,10 @@ h3 {
   z-index: 9;
 }
 
-/* line 115, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li {
   display: block;
 }
 
-/* line 117, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a {
   padding: 10px 15px;
   position: inherit;
@@ -660,30 +471,25 @@ h3 {
   color: #727272;
 }
 
-/* line 123, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a::before {
   display: none;
 }
 
-/* line 127, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
   color: #C78665;
 }
 
-/* line 132, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li:hover > .submenu {
   opacity: 1;
   visibility: visible;
   top: 100%;
 }
 
-/* line 137, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li:hover > a::before {
   opacity: 1;
   transform: scaleX(1);
 }
 
-/* line 144, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -700,54 +506,45 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 144, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 144, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 0;
   }
 }
 
-/* line 170, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .main-menu {
   padding: 0;
 }
 
-/* line 174, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .main-menu ul li a {
   padding: 35px 18px 35px 18px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 174, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky .main-menu ul li a {
     padding: 35px 8px 35px 8px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 174, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky .main-menu ul li a {
     padding: 35px 8px 35px 8px;
   }
 }
 
-/* line 192, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .social_media_links {
   text-align: right;
 }
 
-/* line 195, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .social_media_links ul li {
   display: inline-block;
 }
 
-/* line 197, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .social_media_links ul li a {
   background: #171717;
   color: #8B8B8B;
@@ -763,7 +560,6 @@ h3 {
   font-size: 17px;
 }
 
-/* line 208, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_header.scss */
 .header-area .social_media_links ul li a:hover {
   color: #C78665;
 }
@@ -776,20 +572,6 @@ h3 {
   background-image: url(../data/images/banner1.jpg);
 }
 
-/* line 7, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
-.slider_area {
-  padding: 0 50px;
-  background: #fff;
-}
-
-@media (max-width: 767px) {
-  /* line 7, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
-  .slider_area {
-    padding: 0 20px;
-  }
-}
-
-/* line 14, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner {
   height: 800px;
   position: relative;
@@ -802,21 +584,18 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 14, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner {
     height: 420px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 14, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner {
     height: 500px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 14, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner {
     height: 700px;
     background-position: right;
@@ -824,14 +603,12 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 14, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner {
     height: 800px;
     background-position: right;
   }
 }
 
-/* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text {
   position: absolute;
   left: 50%;
@@ -846,7 +623,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text {
     transform: translate(0%, -50%) rotate(0deg);
     padding: 35px 25px;
@@ -864,7 +640,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text {
     transform: translate(0%, -50%) rotate(0deg);
     padding: 35px 25px;
@@ -882,7 +657,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text {
     transform: rotate(0deg);
     transform: translateX(-50%) translateY(-50%) rotate(0deg);
@@ -890,34 +664,29 @@ h3 {
   }
 }
 
-/* line 90, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text .text_inner {
   position: relative;
   transform: rotate(-45deg);
 }
 
 @media (max-width: 767px) {
-  /* line 90, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text .text_inner {
     transform: rotate(0deg);
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 90, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text .text_inner {
     transform: rotate(0deg);
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 90, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text .text_inner {
     transform: rotate(0deg);
   }
 }
 
-/* line 106, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text h4 {
   font-size: 16px;
   font-weight: 600;
@@ -926,7 +695,6 @@ h3 {
   margin-top: 5px;
 }
 
-/* line 113, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text h3 {
   font-size: 36px;
   font-family: "Petit Formal Script", cursive;
@@ -938,7 +706,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 113, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text h3 {
     font-size: 20px;
     font-weight: 400;
@@ -950,7 +717,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 113, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text h3 {
     font-size: 20px;
     font-weight: 400;
@@ -961,7 +727,6 @@ h3 {
   }
 }
 
-/* line 138, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text span {
   font-size: 18px;
   font-family: "Petit Formal Script", cursive;
@@ -969,7 +734,6 @@ h3 {
   color: #fff;
 }
 
-/* line 144, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text:before {
   position: absolute;
   content: "";
@@ -985,27 +749,23 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 144, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text:before {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 144, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text:before {
     display: none;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 144, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text:before {
     display: none;
   }
 }
 
-/* line 167, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text:after {
   position: absolute;
   content: "";
@@ -1021,46 +781,39 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 167, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text:after {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 167, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text:after {
     display: none;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 167, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner .slider_text:after {
     display: none;
   }
 }
 
-/* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area {
   padding-top: 75px;
   padding-bottom: 30px;
 }
 
 @media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
   .love_story_area {
     padding-top: 50px;
     padding-bottom: 20px;
   }
 }
 
-/* line 8, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story {
   margin-bottom: 30px;
 }
 
-/* line 10, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .story_thumb {
   width: 247px;
   height: 247px;
@@ -1071,12 +824,10 @@ h3 {
   margin: auto;
 }
 
-/* line 16, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .story_thumb img {
   width: 100%;
 }
 
-/* line 19, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .story_thumb:before {
   position: absolute;
   content: "";
@@ -1090,7 +841,6 @@ h3 {
   border-radius: 50%;
 }
 
-/* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story span {
   font-size: 24px;
   font-weight: 400;
@@ -1099,20 +849,17 @@ h3 {
   margin-bottom: 11px;
 }
 
-/* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story h3 {
   font-size: 36px;
   color: #C78665;
 }
 
 @media (max-width: 767px) {
-  /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
   .love_story_area .single_lover_story h3 {
     font-size: 30px;
   }
 }
 
-/* line 44, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story p {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -1120,17 +867,14 @@ h3 {
   line-height: 28px;
 }
 
-/* line 50, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .social_links {
   text-align: center;
 }
 
-/* line 53, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .social_links ul li {
   display: inline-block;
 }
 
-/* line 55, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .social_links ul li a {
   width: 35px;
   height: 35px;
@@ -1145,27 +889,23 @@ h3 {
   margin: 0 3px;
 }
 
-/* line 65, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .social_links ul li a:hover {
   background: #C78665;
   color: #fff;
 }
 
-/* line 74, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .weding_time_line {
   background: #FFFAF2;
   padding: 30px;
   margin-bottom: 30px;
 }
 
-/* line 78, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .weding_time_line .single_time_line {
   padding-bottom: 48px;
   padding-top: 45px;
   position: relative;
 }
 
-/* line 82, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .weding_time_line .single_time_line::before {
   position: absolute;
   height: 40px;
@@ -1177,84 +917,69 @@ h3 {
   opacity: .2;
 }
 
-/* line 93, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .weding_time_line .single_time_line h3 {
   font-size: 24px;
   color: #C78665;
   font-weight: 400;
 }
 
-/* line 98, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .weding_time_line .single_time_line p {
   font-size: 16px;
   line-height: 28px;
   font-family: "Muli", sans-serif;
 }
 
-/* line 104, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .weding_time_line .single_time_line:nth-child(4)::before {
   display: none;
 }
 
-/* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_1 {
   background-image: url(../data/images/gallery0.jpg);
 }
 
-/* line 40, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_2 {
   background-image: url(../data/images/gallery1.jpg);
 }
 
-/* line 43, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_3 {
   background-image: url(../data/images/gallery2.jpg);
 }
 
-/* line 46, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_4 {
   background-image: url(../data/images/gallery3.jpg);
 }
 
-/* line 49, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_5 {
   background-image: url(../data/images/gallery4.jpg);
 }
 
-/* line 52, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_6 {
   background-image: url(../data/images/gallery5.jpg);
 }
 
-/* line 55, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_7 {
   background-image: url(../data/images/gallery6.jpg);
 }
 
-/* line 58, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_8 {
   background-image: url(../data/images/gallery7.jpg);
 }
 
-/* line 61, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_9 {
   background-image: url(../data/images/gallery8.jpg);
 }
 
-/* line 65, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area {
   padding: 0 50px;
   padding-top: 90px;
 }
 
 @media (max-width: 767px) {
-  /* line 65, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
   .gallery_area {
     padding: 0;
   }
 }
 
-/* line 71, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery {
   height: 720px;
   background-size: cover;
@@ -1266,13 +991,11 @@ h3 {
   object-position: center;
 }
 
-/* line 80, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area .grid-item {
   overflow: hidden;
   padding: 4px !important;
 }
 
-/* line 84, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_area a {
   position: absolute;
   left: 0;
@@ -1281,134 +1004,19 @@ h3 {
   height: 100%;
 }
 
-/* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area {
-  padding: 0 50px;
-  position: relative;
-}
-
-/* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area #map {
-  height: 800px !important;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-  .location_area #map {
-    height: 600px;
-  }
-}
-
-/* line 10, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info {
-  display: inline-block;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  z-index: 9;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-@media (max-width: 767px) {
-  /* line 10, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-  .location_area .location_info {
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    transform: translateX(0%);
-    left: 0%;
-    position: relative;
-  }
-}
-
-/* line 24, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner {
-  background: #fff;
-  width: 616px;
-  max-width: 616px;
-  padding: 54px 60px 54px 60px;
-}
-
-@media (max-width: 767px) {
-  /* line 24, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-  .location_area .location_info .location_inner {
-    padding: 20px;
-    width: 100%;
-    bottom: 0;
-  }
-}
-
-/* line 35, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner .location_top {
-  margin-bottom: 42px;
-}
-
-/* line 38, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner h3 {
-  font-size: 36px;
-  font-weight: 400;
-  color: #C78665;
-}
-
-/* line 43, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner p {
-  color: #727272;
-  font-size: 16px;
-  font-family: "Muli", sans-serif;
-  line-height: 28px;
-  margin-bottom: 0;
-  font-weight: 400;
-}
-
-/* line 50, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner p span {
-  color: #C78665;
-}
-
-@media (max-width: 767px) {
-  /* line 54, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-  .location_area .location_info .location_inner .address_info {
-    display: block !important;
-  }
-}
-
-/* line 59, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner .address_info .single_address h4 {
-  color: #C78665;
-  font-size: 16px;
-  font-family: "Muli", sans-serif;
-  font-weight: 600;
-}
-
-/* line 65, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner .address_info .single_address p {
-  color: #727272;
-  font-size: 15px;
-  font-family: "Muli", sans-serif;
-  font-weight: 400;
-  line-height: 26px;
-}
-
-/* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer {
   background: #FFFAF2;
 }
 
-/* line 3, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .footer_top {
   text-align: center;
   padding: 73px 0;
 }
 
-/* line 7, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .footer_top ul li {
   display: inline-block;
 }
 
-/* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .footer_top ul li a {
   font-size: 15px;
   font-family: "Muli", sans-serif;
@@ -1417,29 +1025,24 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
   .footer .footer_top ul li a {
     margin: 0 5px;
   }
 }
 
-/* line 17, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .footer_top ul li a:hover {
   color: #C78665;
 }
 
-/* line 24, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .copy-right_text {
   padding-bottom: 30px;
   background: #fff;
 }
 
-/* line 27, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .copy-right_text .footer_border {
   padding-bottom: 30px;
 }
 
-/* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 14px;
   color: #919191;
@@ -1449,13 +1052,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 30, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
   .footer .copy-right_text .copy_right {
     font-size: 14px;
   }
 }
 
-/* line 40, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
   color: #C78665;
 }
