@@ -986,6 +986,14 @@ h3 {
   background-image: url(../img/banner/banner.png);
 }
 
+.slider_bg_z1 {
+  background-image: url(../data/images/banner00.jpg);
+}
+
+.slider_bg_z2 {
+  background-image: url(../data/images/banner01.jpg);
+}
+
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_bg_2 {
   background-image: url(../img/banner/banner2.png);
@@ -1675,12 +1683,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_bradcam.scss */
 .bradcam_bg {
-  background-image: url(../img/banner/bradcam.png);
-}
-
-/* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_bradcam.scss */
-.bradcam_bg_2 {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../data/images/banner01.jpg);
 }
 
 /* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_bradcam.scss */
