@@ -4,4 +4,11 @@ layout: home
 nav_order: 100
 ---
 
-Hello World
+<html>
+<head>
+    <title>Hello World</title>
+</head>
+<body>
+    <p>Hello World</p>
+</body>
+</html>
