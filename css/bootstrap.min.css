@@ -60,7 +60,7 @@ aside,
 dialog,
 figcaption,
 figure,
-footer,
+footer-area,
 header,
 hgroup,
 main,
@@ -500,13 +500,13 @@ mark {
     font-size: 1.25rem
 }
 
-.blockquote-footer {
+.blockquote-footer-area {
     display: block;
     font-size: 80%;
     color: #6c757d
 }
 
-.blockquote-footer::before {
+.blockquote-footer-area::before {
     content: "\2014 \00A0"
 }
 
@@ -4721,13 +4721,13 @@ tbody.collapse.show {
     border-top: 0
 }
 
-.card-footer {
+.card-footer-area {
     padding: .75rem 1.25rem;
     background-color: rgba(0, 0, 0, .03);
     border-top: 1px solid rgba(0, 0, 0, .125)
 }
 
-.card-footer:last-child {
+.card-footer-area:last-child {
     border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px)
 }
 
@@ -4848,7 +4848,7 @@ tbody.collapse.show {
     .card-group>.card:first-child .card-img-top {
         border-top-right-radius: 0
     }
-    .card-group>.card:first-child .card-footer,
+    .card-group>.card:first-child .card-footer-area,
     .card-group>.card:first-child .card-img-bottom {
         border-bottom-right-radius: 0
     }
@@ -4860,7 +4860,7 @@ tbody.collapse.show {
     .card-group>.card:last-child .card-img-top {
         border-top-left-radius: 0
     }
-    .card-group>.card:last-child .card-footer,
+    .card-group>.card:last-child .card-footer-area,
     .card-group>.card:last-child .card-img-bottom {
         border-bottom-left-radius: 0
     }
@@ -4872,7 +4872,7 @@ tbody.collapse.show {
         border-top-left-radius: .25rem;
         border-top-right-radius: .25rem
     }
-    .card-group>.card:only-child .card-footer,
+    .card-group>.card:only-child .card-footer-area,
     .card-group>.card:only-child .card-img-bottom {
         border-bottom-right-radius: .25rem;
         border-bottom-left-radius: .25rem
@@ -4880,7 +4880,7 @@ tbody.collapse.show {
     .card-group>.card:not(:first-child):not(:last-child):not(:only-child) {
         border-radius: 0
     }
-    .card-group>.card:not(:first-child):not(:last-child):not(:only-child) .card-footer,
+    .card-group>.card:not(:first-child):not(:last-child):not(:only-child) .card-footer-area,
     .card-group>.card:not(:first-child):not(:last-child):not(:only-child) .card-header,
     .card-group>.card:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,
     .card-group>.card:not(:first-child):not(:last-child):not(:only-child) .card-img-top {
@@ -5755,7 +5755,7 @@ button.close {
     padding: 1rem
 }
 
-.modal-footer {
+.modal-footer-area {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5769,11 +5769,11 @@ button.close {
     border-top: 1px solid #e9ecef
 }
 
-.modal-footer>:not(:first-child) {
+.modal-footer-area>:not(:first-child) {
     margin-left: .25rem
 }
 
-.modal-footer>:not(:last-child) {
+.modal-footer-area>:not(:last-child) {
     margin-right: .25rem
 }
 
