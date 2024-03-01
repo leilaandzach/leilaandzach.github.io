@@ -10,17 +10,11 @@ body {
 
 .img {
   max-width: 100%;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 a,
 .button {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -37,7 +31,6 @@ a:focus {
 
 a:focus,
 a:hover,
-.portfolio-cat a:hover,
 .footer-area -menu li a:hover {
   text-decoration: none;
 }
@@ -89,10 +82,6 @@ label {
 
 h3 {
   font-size: 24px;
-}
-
-.mb-65 {
-  margin-bottom: 67px;
 }
 
 .black-bg {
@@ -275,9 +264,6 @@ h3 {
   left: 0;
   opacity: 0;
   transform: scaleX(0);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -302,9 +288,6 @@ h3 {
   opacity: 0;
   visibility: hidden;
   text-align: left;
-  -webkit-transition: 0.6s;
-  -moz-transition: 0.6s;
-  -o-transition: 0.6s;
   transition: 0.6s;
   z-index: 9;
 }
@@ -316,9 +299,6 @@ h3 {
 .header-area .header-area-main .main-menu ul li .submenu li a {
   padding: 10px 15px;
   position: inherit;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   display: block;
   color: #727272;
@@ -353,7 +333,6 @@ h3 {
   z-index: 99;
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
-  -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   background: #fff;
 }
@@ -402,8 +381,6 @@ h3 {
   height: 800px;
   position: relative;
   z-index: 8;
-  position: relative;
-  z-index: 8;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -442,8 +419,6 @@ h3 {
   transform: translate(-50%, -50%) rotate(0deg);
   background: #C78665;
   padding: 84px 42px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   z-index: 10;
 }
@@ -565,8 +540,6 @@ h3 {
   content: "";
   right: -40px;
   bottom: -25px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   border: 1px solid #C78665;
   top: -30px;
@@ -597,8 +570,6 @@ h3 {
   content: "";
   right: -25px;
   bottom: -25px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   border: 1px solid #F2C64D;
   top: -30px;
