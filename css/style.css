@@ -377,6 +377,10 @@ h3 {
   background-image: url(../data/images/banner1_compressed.jpg);
 }
 
+.banner-bg3 {
+  background-image: url(../data/images/banner2_compressed.jpg);
+}
+
 .banner-area {
   height: 800px;
   position: relative;
