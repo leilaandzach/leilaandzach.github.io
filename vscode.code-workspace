@@ -4,9 +4,5 @@
 			"name": "leilaandzach.github.io",
 			"path": "."
 		}
-	],
-	"settings": {
-    	"files.eol": "\n",
-    	"files.autoGuessEncoding": false
-	}
+	]
 }
