@@ -1,5 +1,7 @@
 /* ==== Base ==== */
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
 :root {
   --bg: #fffaf6;
   --bg-alt: #ffffff;
@@ -78,12 +80,6 @@ body {
   width: auto;
 }
 
-.site-title {
-  font-size: 18px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .site-nav {
   display: flex;
   gap: 20px;
@@ -128,7 +124,7 @@ body {
 
 .hero-media {
   position: relative;
-  height: clamp(220px, 40vh, 360px);
+  height: clamp(220px, 50vh, 520px);
   overflow: hidden;
   border-radius: 0 0 var(--radius-lg) var(--radius-lg);
   box-shadow: var(--shadow-soft);
@@ -213,7 +209,10 @@ body {
 }
 
 .story-text {
-  font-size: 15px;
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .story-text p {
