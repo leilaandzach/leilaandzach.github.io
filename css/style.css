@@ -103,11 +103,18 @@ body {
 
 /* Stack header on very small screens */
 
+
 @media (max-width: 600px) {
   .site-header-inner {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
   }
+
+  .site-nav {
+    justify-content: flex-end;
+  }
+}
+
 
   .site-nav {
     justify-content: flex-start;
