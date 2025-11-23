@@ -101,8 +101,6 @@ body {
   border-color: var(--accent);
 }
 
-/* Stack header on very small screens */
-
 @media (max-width: 600px) {
   .site-header-inner {
     flex-direction: column;
@@ -250,7 +248,6 @@ body {
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
 }
 
-/* larger tiles on bigger screens */
 @media (min-width: 768px) {
   .gallery-grid {
     gap: 14px;
@@ -357,8 +354,8 @@ body {
   }
 }
 
+/* ==== Mobile ==== */
 
-/* ==== Mobile header tidy ==== */
 @media (max-width: 600px) {
   .site-header-inner {
     padding: 8px 12px;
